@@ -23,7 +23,7 @@
 
   <a-scene
     embedded
-    arjs="sourceType: webcam; debugUIEnabled: false;"
+    arjs="sourceType: webcam; debugUIEnabled: true;"
     vr-mode-ui="enabled: false"
   >
     <a-marker type="pattern" url="dino.patt">
@@ -37,7 +37,7 @@
 
     <a-marker type="pattern" url="cat.patt">
       <a-entity
-        gltf-model="scene.gltf"
+        gltf-model="blackhole.glb"
         animation-mixer="clip: *; loop: repeat"
         scale="0.5 0.5 0.5"
         position="0 0 0"
